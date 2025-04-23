@@ -53,7 +53,7 @@ def analyze_csv(file, chart_type):
 
 # Gradio Interface
 with gr.Blocks() as demo:
-    gr.Markdown("## 🧠 Sentiment Analysis with LSTM")
+    gr.Markdown("## 🧠 BizMind")
     
     with gr.Tab("Single Review"):
         review_input = gr.Textbox(label="Enter your review", placeholder="Type a review here...")
